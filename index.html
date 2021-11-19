@@ -19,9 +19,7 @@
                 <li class="c3"><a href="#">
                     <img src="./resources/logo.png" alt="menu">
                 </a></li>
-                <li class="c4"><a href="#">
-                    <img src="./resources/login.png" alt="login">
-                </a></li>
+                <button class="c4">Acceder</button>
             </ul>
         </nav>
     </header>
@@ -30,11 +28,15 @@
             <img src="./resources/580b57fcd9996e24bc43c51f.png" alt="Google">
         </div>
         <div class="c2">
-            <form action="#" class="c2_1">
-                <span>
+            <form action="" class="c2_1">
+                <span class="sp1">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                     <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
                     </svg>
+                </span>
+                <span class="sp2">
+                    <a href="#"><img src="./resources/micro.png" alt="microfono">
+                    </a>
                 </span>
                 <label for="input-google">
                     <input type="text" id="input-google" name="google-search" class="c1_1">
@@ -42,13 +44,25 @@
             </form>
         </div>
         <div class="button">
-            <input type="submit" name="google-search" value="Buscar con Google">
-            <input type="submit" name="google-search" value="Me siento con suerte">
+            <input type="submit" id="input-google" name="google-search" value="Buscar con Google" class="button-c1">
+            <input type="submit" id="input-google" name="google-search" value="Me siento con suerte" class="button-c2"> 
         </div>
     </main>
-    <footer>
-        <div></div>
-        <div></div>
+    <div class="pre-footer">
+        <p>Colombia</p>
+    </div>
+    <footer class="pie">
+        <div class="p1">
+            <p><a href="#">Sobre google</a></p>
+            <p><a href="#">Publicidad</a></p>
+            <p><a href="#">Negocios</a></p>
+            <p><a href="#">Cómo funciona la Búsqueda</a></p>
+        </div>
+        <div class="p2">
+            <p><a href="#">Privacidad</a></p>
+            <p><a href="#">Condiciones</a></p>
+            <p><a href="#">Preferencias</a></p>
+        </div>
     </footer>
 </body>
 </html>

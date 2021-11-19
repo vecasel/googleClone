@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+.navigation{
+    display: flex;
+    width: 100%;
+    height: 48px;
+    list-style: none;
+    font-size: 1.3rem;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navigation .c1 a, .c2 a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+.navigation .c3 img{
+    width: 2.0rem;
+    margin: 0 30px;
+}
+.navigation .c4 img{
+    width: 12rem;
+    margin-right: 10px;
+}
+.main-container{
+    display: flex;
+    width: 100%;
+    height: 85vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main-container .c1{
+    max-width: 275.688px;
+    max-height: 93.172px;
+    margin-bottom: 20px;
+}
+.main-container .c1 img{
+    width: 100%;
+}
+.main-container .c2 .c1_1{
+    width: 527px;
+    height: 38px;
+    border-radius: 30px;
+    border-width: 1px;
+    padding-left: 35px;
+    flex-wrap: wrap;
+}
+.main-container .c2  .c2_1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-container .c2 span{
+    position: absolute;
+    left: 10px;
+}
+.main-container .c2  .button{
+    width: 100%;
+    height: 200px;
+}
