@@ -7,6 +7,9 @@ html{
     font-size: 62.5%;
     font-family: 'Roboto', sans-serif;
 }
+a, button, .button-c1, .button-c2{
+    cursor: pointer;
+}
 .navigation{
     display: flex;
     width: 100%;
@@ -69,6 +72,9 @@ html{
     padding-left: 35px;
     flex-wrap: wrap;
 }
+.main-container .c2 .c1_1:hover{
+    background-color: #E0E1E3;
+}
 .main-container .c2  .c2_1{
     position: relative;
     display: flex;
@@ -84,7 +90,7 @@ html{
     right: -105px;
 }
 .main-container .c2 .sp2 img{
-    width: 11%;
+    width: 10%;
 }
 .main-container .button{
     margin-top: 30px;
