@@ -74,6 +74,7 @@ a, button, .button-c1, .button-c2{
 }
 .main-container .c2 .c1_1:hover{
     background-color: #E0E1E3;
+    outline: none;
 }
 .main-container .c2  .c2_1{
     position: relative;
